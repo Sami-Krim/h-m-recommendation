@@ -58,11 +58,13 @@ pip install -r requirements.txt
 ```
 
 
-3. **Data preparation:** 
-Ensure your `data/` folder contains:
-* `transactions_train.csv`
-* `articles.csv`
+3. **Data & weights preparation:**
+* Ensure your data/ folder contains transactions_train.csv and articles.csv.
+* Run the following to fetch the pre-trained weights:
+```bash
+python download_pretrained.py
 
+```
 
 
 ## 📖 Usage instructions
