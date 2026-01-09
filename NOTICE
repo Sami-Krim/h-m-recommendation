@@ -1,0 +1,14 @@
+Semantic Discovery vs. Transactional Precision: LLMs for Fashion Recommendation
+Copyright 2026 Hamame BENCHEIKH LEHOCINE, Melissa MERABET, Mohamed BOUTRIK, Ouarda BOUMANSOUR, Sami KRIM.
+
+1. CODE LICENSE
+The source code in this repository is licensed under the Apache License, 
+Version 2.0.
+
+2. DATASET RESTRICTIONS 
+This project utilizes the "H&M Personalized Fashion Recommendations" 
+dataset provided by H&M Group via Kaggle. 
+- Usage of the data is strictly limited to NON-COMMERCIAL, ACADEMIC RESEARCH.
+- This repository DOES NOT redistribute the H&M dataset.
+- Users are bound by the H&M Kaggle Competition Rules:
+  https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/rules
