@@ -1,4 +1,4 @@
-# Semantic discovery vs. transactional rrecision: LLMs for Fashion Recommendation
+# Semantic discovery vs. transactional precision: LLMs for Fashion Recommendation
 
 This research project evaluates three distinct paradigms in recommendation systems using the **H&M Personalized Fashion Recommendations** dataset. We compare a semantic "style explorer" (LoRA-LLM) against a "behavioral specialist" (Hybrid VAE) and a traditional collaborative filtering baseline (BPR).
 
