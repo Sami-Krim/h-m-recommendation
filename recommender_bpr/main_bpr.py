@@ -47,7 +47,6 @@ def train_validate(path):
         seed=1,
         verbose=True
     )
-    
     print("Training and Validating a BPR model...")
     
     start = time.time()
@@ -59,10 +58,11 @@ def train_validate(path):
         user_based=True,
     )
     exp.run()#(model_bpr12, metrics, ss.test_set, True, True)
+    model_bpr12.save()
 
     cornac_time = time.time() - start
     print(f"Full validation time: {cornac_time:.2f}s")
-    model_bpr12.save("checkpoints")
+    model_bpr12.save(os.path.join(os.path.dirname(os.path.abspath(__file__)), "checkpoints"))
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     train_validate(os.path.join("data", "transactions_train.csv"))
