@@ -20,18 +20,19 @@ The repository is modularly organized to keep model-specific checkpoints and pre
 
 ```text
 .
-├── data/                       # H&M Dataset (excluded from git)
-├── recommender_vae/            # Hybrid VAE Implementation
+├── data/                       # H&M dataset (excluded from git)
+├── recommender_vae/            # Hybrid VAE
 │   ├── checkpoints/            # Local training saves
 │   ├── pretrained/             # Final model weights
 │   └── main_vae.py           # Model execution script
-├── recommender_lora/           # LoRA-LLM Style Explorer
+├── recommender_lora/           # LoRA-LLM style explorer
 │   ├── checkpoints/
 │   ├── pretrained/
 │   └── main_lora.py
-├── recommender_bpr/            # BPR Baseline
+├── recommender_bpr/            # BPR baseline
 │   ├── checkpoints/
 │   └── main_bpr.py
+├── download_pretrained.py      # Download pretrained weights
 ├── requirements.txt            # Python dependencies
 ├── LICENCE                     # Project licence
 └── NOTICE                      # Legal & Data attributions
@@ -58,7 +59,8 @@ pip install -r requirements.txt
 ```
 
 
-3. **Data & weights preparation:**
+3. **Data & weights preparation**
+
 * Ensure your data/ folder contains transactions_train.csv and articles.csv.
 * Run the following to fetch the pre-trained weights:
 ```bash
